@@ -1,0 +1,164 @@
+/* styles/styles.css */
+
+/* Estilos generales */
+QWidget {
+    background-color: #DFF2EB;
+    color: #4A628A;
+}
+
+/* Estilos para el mensaje de bienvenida */
+QLabel#welcome_label {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4A628A;
+}
+
+/* Estilos para el botón "Vamos" */
+QPushButton#vamos_button {
+    background-color: #7AB2D3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+QPushButton#vamos_button:hover {
+    background-color: #4A628A;
+}
+
+/* Estilos para el editor de texto */
+QTextEdit#editor_text_edit {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Cascadia Mono', monospace;
+    font-size: 14px;
+    font-weight: 250;
+    border: 1px solid #7AB2D3;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Estilos para los botones de la pestaña de archivos */
+QPushButton#back_button,
+QPushButton#forward_button,
+QPushButton#select_dir_button,
+QPushButton#create_folder_button,
+QPushButton#create_file_button,
+QPushButton#rename_button,
+QPushButton#delete_button,
+QPushButton#compress_button,
+QPushButton#save_button {
+    background-color: #7AB2D3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+QPushButton#back_button:hover,
+QPushButton#forward_button:hover,
+QPushButton#select_dir_button:hover,
+QPushButton#create_folder_button:hover,
+QPushButton#create_file_button:hover,
+QPushButton#rename_button:hover,
+QPushButton#delete_button:hover,
+QPushButton#compress_button:hover,
+QPushButton#save_button:hover {
+    background-color: #4A628A;
+}
+
+/* Estilos para la lista de archivos */
+QListWidget#file_list {
+    background-color: white;
+    border: 1px solid #7AB2D3;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QListWidget#file_list::item {
+    padding: 5px;
+    color: black;
+}
+
+QListWidget#file_list::item:hover {
+    background-color: #B9E5E8;
+}
+
+/* Estilos para la etiqueta de la ruta actual */
+QLabel#current_path_label {
+    font-size: 14px;
+    color: #4A628A;
+}
+/* styles/styles.css */
+
+/* styles/styles.css */
+
+/* Estilos para el QTabWidget */
+QTabWidget#tab_widget::pane {
+    border: 1px solid #7AB2D3;
+    padding: 10px;
+    background-color: #DFF2EB;
+}
+
+/* Estilos para las pestañas (QTabBar) */
+QTabBar#tab_bar::tab {
+    background: #B9E5E8;
+    border: 1px solid #7AB2D3;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #4A628A;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-width: 100px;
+}
+
+QTabBar#tab_bar::tab:selected {
+    background: #7AB2D3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom-color: #7AB2D3;
+}
+
+QTabBar#tab_bar::tab:hover {
+    background: #7AB2D3;
+    color: white;
+}
+/* styles/styles.css */
+
+/* Estilos para los botones de control */
+QPushButton#start_button,
+QPushButton#stop_button,
+QPushButton#restart_button {
+    background-color: #7AB2D3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+QPushButton#start_button:hover,
+QPushButton#stop_button:hover,
+QPushButton#restart_button:hover {
+    background-color: #4A628A;
+}
+
+/* Estilos para las etiquetas de información */
+QLabel#ip_label,
+QLabel#port_label,
+QLabel#edition_label,
+QLabel#version_label,
+QLabel#path_label,
+QLabel#cpu_label,
+QLabel#ram_label,
+QLabel#network_label {
+    font-size: 14px;
+    color: #4A628A;
+}
+QLabel#title_label {
+    margin-top: 10px;
+    color: #4A628A;
+    font-size: 22px;
+    font-weight: bold;
+}
